@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+export CLUSTER_DISCOVERY_URL=mongodb://discovery-url
+export CLUSTER_SERVICE=web
+meteor run ios --verbose

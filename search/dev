@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+export CLUSTER_DISCOVERY_URL=mongodb://discovery-url
+export CLUSTER_SERVICE=search
+meteor --port 4000
